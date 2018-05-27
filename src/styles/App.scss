@@ -1,23 +1,15 @@
+@import 'mixins/flexbox';
 @import 'colors';
-@import 'Header';
+@import 'header';
 
 /* Base Application Styles */
 body {
-  background: $white;
+  background: $gray;
 }
 
-.index img {
+.yeoman {
   margin: 40px auto;
   border-radius: 4px;
   background: #fff;
   display: block;
-}
-
-.index .notice {
-  margin: 20px auto;
-  padding: 15px 0;
-  text-align: center;
-  border: 1px solid #000;
-  border-width: 1px 0;
-  background: $black;
 }

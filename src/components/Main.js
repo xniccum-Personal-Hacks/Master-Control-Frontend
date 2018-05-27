@@ -1,9 +1,8 @@
 require('normalize.css/normalize.css');
 require('styles/App.scss');
-require('./Header')
 
 import React from 'react';
-import Header from './Header';
+import Header from './header';
 
 let yeomanImage = require('../images/yeoman.png');
 
@@ -12,7 +11,7 @@ class AppComponent extends React.Component {
     return (
       <div className="index">
         <Header/>
-        <img src={yeomanImage} alt="Yeoman Generator" />
+        <img className="yeoman" src={yeomanImage}/>
       </div>
     );
   }

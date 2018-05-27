@@ -1,0 +1,14 @@
+.header {
+  height: 40px;
+  background: #232526;
+  background: -webkit-linear-gradient(to bottom, #414345, #232526);
+  background: linear-gradient(to bottom, #414345, #232526);
+  @include flexbox();
+  @include align-content(center);
+
+  .icon {
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: $white;
+  }
+}
